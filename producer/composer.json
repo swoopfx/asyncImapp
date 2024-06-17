@@ -1,0 +1,17 @@
+{
+    "name": "mac/producer",
+    "autoload": {
+        "psr-4": {
+            "Mac\\Producer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ezekiel Ajayi",
+            "email": "ezekiel_a@yahoo.com"
+        }
+    ],
+    "require": {
+        "php-amqplib/php-amqplib": "^3.6"
+    }
+}
